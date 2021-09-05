@@ -1,0 +1,19 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "chat-app using socket.io (nodejs)",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor --inspect index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "duccanh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
